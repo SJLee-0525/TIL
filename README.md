@@ -22,3 +22,9 @@
 - **[CLI](https://github.com/SJLee-0525/TIL/blob/master/CLI/CLI.md)**  
 - **[Markdown](https://github.com/SJLee-0525/TIL/blob/master/Markdown/Markdown.md)**  
 - **[GIT](https://github.com/SJLee-0525/TIL/blob/master/GIT/GIT.md)**
+
+### 2. PYTHON
+- **[Fundamentals of Python](https://github.com/SJLee-0525/TIL/blob/master/Python/Fundamentals_of_Python.md)**
+- **[Data Types](https://github.com/SJLee-0525/TIL/blob/master/Python/Data_types.md)**
+- **[Type Conversion](https://github.com/SJLee-0525/TIL/blob/master/Python/Type_Conversion.md)**
+- **[Operator](https://github.com/SJLee-0525/TIL/blob/master/Python/Operator.md)**
