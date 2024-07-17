@@ -28,3 +28,5 @@
 - **[Data Types](https://github.com/SJLee-0525/TIL/blob/master/Python/Data_types.md)**
 - **[Type Conversion](https://github.com/SJLee-0525/TIL/blob/master/Python/Type_Conversion.md)**
 - **[Operator](https://github.com/SJLee-0525/TIL/blob/master/Python/Operator.md)**
+- **[Functions](https://github.com/SJLee-0525/TIL/blob/master/Python/Functions.md)**
+- **[Packing & Unpacking](https://github.com/SJLee-0525/TIL/blob/master/Python/Packing_Unpacking.md)**
