@@ -30,3 +30,5 @@
 - **[Operator](https://github.com/SJLee-0525/TIL/blob/master/Python/Operator.md)**
 - **[Functions](https://github.com/SJLee-0525/TIL/blob/master/Python/Functions.md)**
 - **[Packing & Unpacking](https://github.com/SJLee-0525/TIL/blob/master/Python/Packing_Unpacking.md)**
+- **[Module](https://github.com/SJLee-0525/TIL/blob/master/Python/Module.md)**
+- **[Conrtol of Flow](https://github.com/SJLee-0525/TIL/blob/master/Python/Control_of_flow.md)**
