@@ -804,6 +804,10 @@ print(3 > 1)  # True
 print('3' != 3)  # True
 ```
 ---
+### 반복 가능한 객체 `iterable`
+
+- **반복문에서 순회할 수 있는 객체** (**sequence** 객체 뿐만 아니라 **dict, set** 등도 포함)
+---
 
 ## Collection
 - 여러 개의 항목 또는 요소를 담는 자료 구조
@@ -1103,7 +1107,7 @@ print(sorted(numbers, reverse=True))  # [5, 4, 3, 2, 1] 정렬 (기본은 오�
 ```
 --- 
 ### map( )
-> map(function(함수), iterable(반복 가능한 객체))
+> map(function(함수), iterable(반복 가능한 객체)) 
 
 - 순회 가능한 **데이터구조(iterable)**의 **모든 요소에 함수를 적용**하고, 그 **결과를 map object로 반환**
 
@@ -1413,6 +1417,140 @@ my_function(**my_dict)  # 1 2 3
 - `‘**’`
     - **언패킹 연산자**로 사용될 때, **딕셔너리의 키-값 쌍을 언패킹하여 함수의 키워드 인자로 전달**
 ---
+## Method - 매서드
+
+- **객체에 속한 함수**
+
+- **객체의 상태를 조작**하거나 **동작을 수행**
+
+### 메서드 특징
+
+- 메서드는 **클래스(class) 내부에 정의**되는 **함수**
+  
+- **클래스**는 '파이썬에서 타입을 표현하는 방법’이며 이미 은연중에 사용해왔음
+  
+- 예를 들어 help 함수를 통해 str을 호출해보면 class 였다는 것을 확인 가능
+
+> - **메서드**는 어딘가(클래스)에 속해 있는 함수이며,  
+> 각 **데이터 타입 별로 다양한 기능을 가진 메서드가 존재**
+
+#### 매서드 호출
+```python
+'hello'.capitalize() 
+# 객체.함수이름() : 객체 안에 속한 함수
+```
+## 시퀀스 데이터 구조
+
+### 문자열 
+#### 문자열 조회/탐색 및 검증 메서드
+| 메서드 | 설명 |
+|------|------|
+| **s.find(x)**	| x의 첫 번째 위치를 반환. 없으면, -1을 반환 |
+| **s.index(x)** | x의 첫 번째 위치를 반환. 없으면, 오류 발생 |
+| **s.isupper()** | 대문자 여부 |
+| **s.islower()** | 소문자 여부 |
+| **s.isalpha()** | 알파벳 문자 여부 (* 단순 알파벳이 아닌 유니코드 상 Letter, 한국어도 포함) |
+
+#### 문자열 조작 메서드 (새 문자열 반환)
+
+- **str은 불변객체**이기 때문에: 새 문자열로 반환함.
+
+| 메서드 | 설명 |
+|------|------|
+| **s.replace(old, new[,count])** |	바꿀 대상 글자를 새로운 글자로 바꿔서 반환 [,count]는 선택인자 (횟수만큼 바꿈) |
+| **s.strip([chars])** | 공백이나 특정 문자를 제거
+| **s.split(sep=None, maxsplit=-1)**	| 공백이나 특정 문자를 기준으로 분리 |
+| **'separator'.join(iterable)** | 구분자로 iterable(반복 가능한) 문자열을 연결한 문자열을 반환 |
+| **s.capitalize()** | 가장 첫 번째 글자를 대문자로 변경 |
+| **s.title()** | 문자열 내 띄어쓰기 기준으로 각 단어의 첫 글자는 대문자로, 나머지는 소문자로 변환 |
+| **s.upper()** | 모두 대문자로 변경 |
+| **s.lower()**	| 모두 소문자로 변경 |
+| **s.swapcase()** | 대 ↔ 소문자 서로 변경 |
+
+### 리스트
+#### ### 리스트 값 추가 및 삭제 메서드
+
+- List는 **가변 객체**이기에 원본 객체에 변화를 가할 수 있음
+
+| 메서드 | 설명 |
+|------|------|
+| **L.append(x)** | 리스트 마지막에 항목 x를 추가
+| **L.extend(m)** | Iterable m의 모든 항목들을 리스트 끝에 추가 (+=과 같은 기능) |
+| **L.insert(i, x)** |리스트 인덱스 i에 항목 x를 삽입 |
+| **L.remove(x)** | 리스트 가장 왼쪽에 있는 항목(첫 번째) x를 제거, 항목이 존재하지 않을 경우 ValueError |
+| **L.pop()** | 리스트 가장 오른쪽에 있는 항목(마지막)을 반환 후 제거 |
+| **L.pop(i)** | 리스트의 인덱스 i에 있는 항목을 반환 후 제거 |
+| **L.clear()** | 리스트의 모든 항목 삭제 |
+
+#### 리스트 탐색 및 정렬 메서드
+| 문법 | 설명 |
+|------|------|
+| **L.index(x)** | 리스트에 있는 항목 중 가장 왼쪽에 있는 항목 x의 인덱스를 반환 |
+| **L.count(x)** | 리스트에서 항목 x의 개수를 반환 |
+| **L.reverse()** | 리스트의 순서를 역순으로 변경 (정렬 X) |
+| **L.sort()** | 리스트를 정렬 (매개변수 이용 가능) |
+
+## 비시퀀스 데이터 구조
+### 세트 `set`
+
+- 고유한 항목들의 정렬되지 않은 컬렉션
+
+#### 세트 메서드
+| 메서드 | 설명 |
+|-------|-------|
+| **s.add(x)** | 세트 s에 항목 x를 추가. 이미 x가 있다면 변화 없음 |
+| **s.clear()** | 세트 s의 모든 항목을 제거 |
+| **s.remove(x)** | 세트 s에서 항목 x를 제거. 항목 x가 없을 경우 Key error |
+| **s.pop()** | 세트 s에서 랜덤하게 항목을 반환하고, 해당 항목을 제거 |
+| **s.discard(x)** | 세트 s에서 항목 x를 제거 |
+| **s.update(iterable)** | 세트 s에 다른 iterable 요소를 추가 |
+
+#### 세트의 집합 메서드
+| 메서드 | 설명 | 연산자 |
+|-------|-------|-------|
+| **set1.difference(set2)** | set1에는 들어있지만 set2에는 없는 항목으로 세트를 생성 후 반환	| **set1 – set2** |
+| **set1.intersection(set2)** | set1과 set2 모두 들어있는 항목으로 세트를 생성 후 반환 | **set1 & set2** |
+| **set1.issubset(set2)** | set1의 항목이 모두 set2에 들어있으면 True를 반환 | **set1 <= set2** |
+| **set1.issuperset(set2)** | set1가 set2의 항목을 모두 포함하면 True를 반환	 | **set1 >= set2** |
+| **set1.union(set2**) | set1 또는 set2에(혹은 둘 다) 들어있는 항목으로 세트를 생성 후 반환 | **set1** |
+
+### 딕셔너리 `dictionary`
+
+- 고유한 항목들의 정렬되지 않은 컬렉션
+
+#### 딕셔너리 메서드
+| 메서드 | 설명 |
+|------|------|
+| D.clear() | 딕셔너리 D의 모든 키/값 쌍을 제거 |
+| D.get(k) | 키 k에 연결된 값을 반환 (키가 없으면 None을 반환) |
+| D.get(k, v) | 키 k에 연결된 값을 반환하거나 키가 없으면 기본 값으로 v를 반환 |
+| D.keys() | 딕셔너리 D의 키를 모은 객체를 반환 |
+| D.values() | 딕셔너리 D의 값을 모은 객체를 반환 |
+| D.items() | 딕셔너리 D의 키/값 쌍을 모은 객체를 반환 |
+| D.pop(k) | 딕셔너리 D에서 키 k를 제거하고 연결됐던 값을 반환 (없으면 오류) | 
+| D.pop(k, v) | 딕셔너리 D에서 키 k를 제거하고 연결됐던 값을 반환 (없으면 v를 반환) |
+| D.setdefault(k) |딕셔너리 D에서 키 k와 연결된 값을 반환 |
+| D.setdefault(k, v) | 딕셔너리 D에서 키 k와 연결된 값을 반환. k가 D의 키가 아니면 값 v와 연결한 키 k를 D에 추가하고 v를 반환 |
+| D.update(other) | other 내 각 키에 대해 D에 있는 키면 D에 있는 그 키의 값을 other에 있는 값으로 대체. other에 있는 각 키에 대해 D에 없는 키면 키/값 쌍을 D에 추가 |
+
+## 참고
+### 문자 유형 판별 메서드
+- `isdecimal()` : 가장 엄격
+    - 문자열이 모두 숫자 문자(0~9)로만 이루어져 있어야 True
+
+- `isdigit()`
+    - isdecimal()과 비슷하지만, 유니코드 숫자도 인식 ('①’ 도 숫자로 인식)
+
+- `isnumeric()` : 가장 느슨
+    - isdigit()과 유사하지만, 몇 가지 추가적인 유니코드 문자들을 인식(분수, 지수, 루트 기호도 숫자로 인식)
+
+isdecimal()	isdigit()	isnumeric()	예시
+True	True	True	"038", "੦੩੮", "０３８"
+False	True	True	"⁰³⁸", "🄀⒊⒏", "⓪③⑧"
+False	False	True	"⅛⅘", "ⅠⅢⅧ", "⑩⑬㊿", "壹貳參"
+False	False	False	"abc", "38.0", "-38" (float 안 됨)
+
+---
 ## Module
 ### 모듈 Module
 - 한 파일로 묶인 변수와 함수의 모음
@@ -1530,3 +1668,305 @@ print(response)
 
 - 모듈들의 이름공간을 구분하여 충돌을 방지
 - 모듈들을 효율적으로 관리하고 재사용할 수 있도록 돕는 역할
+
+## 제어문
+- 코드의 **실행 흐름을 제어**하는 데 사용되는 구문
+
+- **조건에 따라 코드 블록을 실행**하거나 **반복적으로 코드를 실행**
+
+### 조건문
+- `if`  
+  
+- `elif`  
+  
+- `else`
+  
+**복수 조건문**
+
+- 조건식을 동시에 검사하는 것이 아니라 순차적으로 비교
+```python
+dust = 35
+
+if dust > 150:
+    print('매우 나쁨')
+elif dust > 80:
+    print('나쁨')
+elif dust > 30:
+    print('보통')
+else:
+    print('좋음')
+```
+
+**중첩 조건문**
+```python
+dust = 480
+
+if dust > 150:
+    print('매우 나쁨')
+    """
+    중첩 조건문
+    """
+    if dust > 300:
+        print('위험해요! 나가지 마세요!')
+elif dust > 80:
+    print('나쁨')
+elif dust > 30:
+    print('보통')
+else:
+    print('좋음')
+```
+
+### 반복문
+- **주어진 코드 블록을 여러 번 반복해서 실행**하는 구문
+
+  1. 특정 작업을 **반복적**으로 수행
+   
+  2. 주어진 조건이 **참인 동안 반복해서 실행**
+   
+#### `for`
+    - 특정 작업을 반복적으로 수행
+    - 종료 조건이 명확함
+  
+#### for 문 원리
+
+- 리스트 내 첫 항목이 반복 변수에 할당되고 코드 블록이 실행
+- 다음으로 반복 변수에 리스트의 2번째 항목이 할당되고 코드 블록이 다시 실행
+- ... 마지막으로 반복 변수에 리스트의 마지막 요소가 할당되고 코드 블록이 실행
+
+#### - 문자열 순회
+- 문자열도 sequence 데이터임
+```python
+country = 'Korea'
+
+for char in country:
+    print(char)
+
+"""
+K
+o
+r
+e
+a
+"""
+```
+
+#### - range 순회
+- 굳이 list(range(i))로 변환하지 않아도, 반복 가능한 객체로 출력
+```python
+for i in range(5):
+    print(i)
+
+"""
+0
+1
+2
+3
+4
+"""
+```
+
+#### - dict 순회
+- 기본적으로 dict는 for문 사용시 **key를 뱉어냄**
+- 
+    - key를 활용해서 value를 출력하자!
+  
+```python
+my_dict = {
+    'x': 10,
+    'y': 20,
+    'z': 30,
+}
+
+for key in my_dict:
+    print(key)
+    print(my_dict[key])
+    
+"""
+x
+10
+y
+20
+z
+30
+"""
+```
+
+#### - 인덱스로 리스트 순회
+- 리스트의 요소가 아닌 인덱스로 접근하여 해당 요소들을 변경하기
+  
+```python
+numbers = [4, 6, 10, -8, 5]
+
+for i in range(len(numbers)):
+    numbers[i] = numbers[i] * 2
+
+print(numbers) # [8, 12, 20, -16, 10]
+```
+
+#### - enumerate(iterable, start=0)
+- iterable 객체의 각 요소에 대해 인덱스와 함께 반환하는 내장함수
+```python
+fruits = ['apple', 'banana', 'cherry']
+
+for index, fruit in enumerate(fruits):
+print(f'인덱스 {index}: {fruit}')
+
+"""
+인덱스 0: apple
+인덱스 1: banana
+인덱스 2: cherry
+"""
+```
+
+#### `while`
+    - 주어진 조건이 참인 동안 반복해서 실행
+      - 조건식이 거짓(False)가 될 때 까지 반복
+    - 종료 조건이 없다면 무한히 돌아감
+
+```python
+a = 0
+
+while a < 3:
+    print(a)
+    a += 1
+
+print('끝')
+
+"""
+0
+1 
+2 
+끝
+"""
+```
+
+#### 적절한 반복문 활용하기
+
+- **`for`**
+    - **반복 횟수가 명확하게 정해져 있는 경우에 유용**
+    - 예를 들어 **리스트, 튜플, 문자열 등과 같은 시퀀스 형식의 데이터**를 처리할 때
+- **`while`**
+    - **반복 횟수가 불명확하거나 조건에 따라 반복을 종료해야 할 때** 유용
+    - 예를 들어 **사용자의 입력을 받아서 특정 조건이 충족될 때까지 반복하는 경우**
+
+### ### 반복 제어
+
+- for문과 while은 매 반복마다 본문 내 모든 코드를 실행하지만
+때때로 일부만 실행하는 것이 필요할 때가 있음
+
+### 반복문 제어 키워드
+
+- **`break`**
+    - 반복을 **즉시 중지**
+```python
+# break
+
+for i in range(10):
+    if i == 5:
+        break # 중지
+    print(i)  # 0 1 2 3 4
+```
+- **`continue`**
+    - **다음 반복으로 건너뜀**
+```python
+# continue
+
+for i in range(10):
+    if i % 2 == 0:
+        continue # 다음 반복으로 
+    print(i)  # 1 3 5 7 9
+```
+```python
+# 리스트에서 홀수만 출력하기
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# 현재 반복문의 남은 코드를 건너뛰고 다음 반복으로 넘어감
+for num in numbers:
+    if num % 2 == 0:
+        continue
+    print(num)
+
+"""
+1
+3
+5
+7
+9
+"""
+```
+
+- **`pass`**
+    - 아무런 동작도 **수행하지 않고 넘어감**
+```python
+# pass
+
+for i in range(10):
+    pass  # 아무 작업도 안함 (에러 방지 등)
+```
+1. 코드 작성 중 미완성 부분
+    ◦ 구현해야 할 부분이 나중에 추가될 수 있고, 코드를 컴파일하는 동안 오류가 발생하지 않음
+```python
+def my_function():
+    pass  
+```
+
+2. 조건문에서 아무런 동작을 수행하지 않아야 할 때
+```python
+if condition:
+    pass  # 아무런 동작도 수행하지 않음
+else:
+    # 다른 동작 수행
+```
+
+3. 무한 루프에서 조건이 충족되지 않을 때 pass를 사용하여 루프를 계속 진행하는 방법
+```python
+while True:
+    if condition:
+        break
+    elif condition:
+        pass  # 루프 계속 진행
+    else:
+        print('..')
+```
+
+### List Comprehension
+
+- 간결하고 효율적인 리스트 생성 방법
+
+#### List Comprehension 구조
+```python
+[expression for 변수 in iterable]
+list(expression for 변수 in iterable)
+
+# expression: 변수에 할당할 수식
+```
+```python
+[expression for 변수 in iterable if 조건식]
+list(expression for 변수 in iterable if 조건식)
+```
+
+#### List Comprehension 사용 전/후 비교
+```python
+# List Comprehension 미사용
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = []
+
+for num in numbers:
+    squared_numbers.append(num**2)
+
+print(squared_numbers)  # [1, 4, 9, 16, 25]
+
+
+# List Comprehension 사용
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = [num**2 for num in numbers]
+
+print(squared_numbers)  # [1, 4, 9, 16, 25]
+```
+```python
+# if문 포함
+squared_numbers_3 = [num ** 2 for num in numbers if num % 2 == 1]
+print(squared_numbers_3)
+```
