@@ -1,4 +1,5 @@
 # 이성준
+**[바로가기](https://github.com/SJLee-0525/TIL/blob/master/Python/Summary_01.md)**
 
 > 안녕하세요!   
 > 자기소개나리코더더더덛ㄱ   
