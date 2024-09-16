@@ -18,7 +18,17 @@
 |**😄 좋아하는 것**|![제로콜라](https://img.shields.io/badge/%EC%A0%9C%EB%A1%9C%EC%BD%9C%EB%9D%BC-3B170B) ![야구](https://img.shields.io/badge/%EC%95%BC%EA%B5%AC-red) ![사진](https://img.shields.io/badge/%EC%82%AC%EC%A7%84-yellow) ![음악감상](https://img.shields.io/badge/%EC%9D%8C%EC%95%85%EA%B0%90%EC%83%81-A9E2F3)|
 |**😖 싫어하는 것**|![비](https://img.shields.io/badge/%EB%B9%84-0404B4) ![눈](https://img.shields.io/badge/%EB%88%88-white) ![수면부족](https://img.shields.io/badge/%EC%88%98%EB%A9%B4%EB%B6%80%EC%A1%B1-gray) ![주목받기](https://img.shields.io/badge/%EC%A3%BC%EB%AA%A9%EB%B0%9B%EA%B8%B0-DF0101) ![음악](https://img.shields.io/badge/%EC%9D%8C%EC%95%85-7401DF)|
 
-## 목차
+# 목차
+## 개인 공부
+### 1. JAVA
+- **[변수, 연산자](https://github.com/SJLee-0525/TIL/blob/master/Java/start.md)**  
+- **[조건문, 반복문](https://github.com/SJLee-0525/TIL/blob/master/Java/condition_loop.md)**  
+- **[스코프, 형변환](https://github.com/SJLee-0525/TIL/blob/master/Java/scope_casting.md)**  
+- **[입력](https://github.com/SJLee-0525/TIL/blob/master/Java/scanner.md)**  
+- **[배열](https://github.com/SJLee-0525/TIL/blob/master/Java/array.md)**  
+- **[메서드](https://github.com/SJLee-0525/TIL/blob/master/Java/method.md)**  
+
+## SSAFY
 ### 1. START CAMP 
 - **[CLI](https://github.com/SJLee-0525/TIL/blob/master/CLI/CLI.md)**  
 - **[Markdown](https://github.com/SJLee-0525/TIL/blob/master/Markdown/Markdown.md)**  
