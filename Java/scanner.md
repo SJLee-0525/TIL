@@ -206,3 +206,17 @@ public class ScannerWhileEx3 {
     }
 }
 ```
+
+### 연속된 숫자 입력받아 배열에 저장하기
+
+```java
+// java에서 연속된 숫자를 나누어서 배열에 저장하기
+            int[] arr = new int[6];             // 배열 생성
+            String input = scanner.nextLine();  // String으로 일단 입력 받음
+
+            for (int i = 0; i < input.length(); i++) {
+                // 순회하며 각 문자를 숫자로 변환해서 배열에 담음..
+                arr[i] = Character.getNumericValue(input.charAt(i));
+            }
+//            System.out.println("arr: " + Arrays.toString(arr)); // arr: [3, 3, 3, 4, 5, 6]
+```

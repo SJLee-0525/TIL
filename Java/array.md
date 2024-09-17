@@ -239,6 +239,16 @@ public class Array1Ref4 {
 }
 ```
 
+### 배열의 복사
+
+- 배열은 생성하면 길이를 변경할 수 없기 때문에, 
+더 많은 저장 공간이 필요하다면 이전 배열의 값을 복사해야함
+
+```java
+// 새로운 배열 = Arrays.copy(복사하고 싶은 배열, 새로운 배열의 크기)
+System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);
+```
+
 ## 2차원 배열
 
 **1차원 배열은 단순히 순서대로 나열되어 있었음**
