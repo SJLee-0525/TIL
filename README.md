@@ -50,6 +50,15 @@
 
 ### 5. DJANGO
 - **[Intro & Design Pattern](https://github.com/SJLee-0525/TIL/blob/master/Django/intro_design_pattern.md)**
+- **[Template & URLs](https://github.com/SJLee-0525/TIL/blob/master/Django/template_and_urls.md)**
+- **[Model](https://github.com/SJLee-0525/TIL/blob/master/Django/model.md)**
+- **[ORM](https://github.com/SJLee-0525/TIL/blob/master/Django/orm.md)**
+- **[ORM with view](https://github.com/SJLee-0525/TIL/blob/master/Django/orm_with_view.md)**
+- **[Form](https://github.com/SJLee-0525/TIL/blob/master/Django/form.md)**
+- **[Static files](https://github.com/SJLee-0525/TIL/blob/master/Django/static_files.md)**
+- **[Authentication System](https://github.com/SJLee-0525/TIL/blob/master/Django/authentication_system.md)**
+- **[DRF 01](https://github.com/SJLee-0525/TIL/blob/master/Django/drf_1.md)**
+- **[DRF 02](https://github.com/SJLee-0525/TIL/blob/master/Django/drf_2.md)**
 
 ### 6. PJT
 - **[01 PJT (240719)](https://github.com/SJLee-0525/TIL/blob/master/PJT/01_pjt.md)**
