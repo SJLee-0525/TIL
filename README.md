@@ -1,6 +1,8 @@
 # TIL
 
 ## 개인 공부
+**[MEMO](https://github.com/SJLee-0525/TIL/blob/master/Algorithm/memo.md)**  
+
 ### 1. JAVA
 - **[변수, 연산자](https://github.com/SJLee-0525/TIL/blob/master/Java/start.md)**  
 - **[조건문, 반복문](https://github.com/SJLee-0525/TIL/blob/master/Java/condition_loop.md)**  
@@ -11,6 +13,8 @@
 
 ### 2. APS_JAVA
 - **[APS Array](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_array.md)**  
+- **[APS String](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_string.md)**  
+- **[APS Stack & Queue](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_stack_queue.md)**  
 
 ## SSAFY
 ### 1. START CAMP 
@@ -90,6 +94,13 @@
 - **[01 PJT (240719)](https://github.com/SJLee-0525/TIL/blob/master/PJT/01_pjt.md)**
 - **[02 PJT (240726)](https://github.com/SJLee-0525/TIL/blob/master/PJT/02_pjt.md)**
 - **[03 PJT (240823)](https://github.com/SJLee-0525/TIL/blob/master/PJT/03_pjt.md)**
+- **[04 PJT (240927)](https://github.com/SJLee-0525/TIL/blob/master/PJT/04_pjt.md)**
+- **[05 PJT (241004)](https://github.com/SJLee-0525/TIL/blob/master/PJT/05_pjt.md)**
+- **[06 PJT (241018)](https://github.com/SJLee-0525/learning/tree/master/pjt/pjt-06)**
+- **[07 PJT (241101)](https://github.com/SJLee-0525/TIL/blob/master/PJT/07_pjt.md)**
+- **[08 PJT (241108)](https://github.com/SJLee-0525/TIL/blob/master/PJT/08_pjt.md)**
+- **[09 PJT (241115)](https://github.com/SJLee-0525/learning/tree/master/pjt/pjt-09)**
+- **[10 PJT (241126)](https://github.com/SJLee-0525/learning/tree/master/pjt/pjt-10)**
 
 ### 10. PACKAGE
 - **[NUMPY](https://github.com/SJLee-0525/TIL/blob/master/Package/numpy.md)**
