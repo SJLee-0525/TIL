@@ -68,6 +68,14 @@
 - **[Many to Many Relationships 01](https://github.com/SJLee-0525/TIL/blob/master/Database/many_to_many_relationships_01.md)**
 - **[Many to Many Relationships 02](https://github.com/SJLee-0525/TIL/blob/master/Database/many_to_many_relationships_02.md)**
 
+### 7. JAVASCRIPT
+- **[DOM](https://github.com/SJLee-0525/TIL/blob/master/Javascript/dom.md)**
+- **[Basic Syntax](https://github.com/SJLee-0525/TIL/blob/master/Javascript/basic_syntax.md)**
+- **[Reference Type](https://github.com/SJLee-0525/TIL/blob/master/Javascript/reference_type.md)**
+- **[Controlling Event](https://github.com/SJLee-0525/TIL/blob/master/Javascript/controlling_event.md)**
+- **[Asynchronous JavaScript](https://github.com/SJLee-0525/TIL/blob/master/Javascript/asynchronous_javascript.md)**
+- **[Ajax with Django](https://github.com/SJLee-0525/TIL/blob/master/Javascript/ajax_with_django.md)**
+
 ### 9. PJT
 - **[01 PJT (240719)](https://github.com/SJLee-0525/TIL/blob/master/PJT/01_pjt.md)**
 - **[02 PJT (240726)](https://github.com/SJLee-0525/TIL/blob/master/PJT/02_pjt.md)**
