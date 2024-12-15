@@ -100,7 +100,7 @@
 - **[07 PJT (241101)](https://github.com/SJLee-0525/TIL/blob/master/PJT/07_pjt.md)**
 - **[08 PJT (241108)](https://github.com/SJLee-0525/TIL/blob/master/PJT/08_pjt.md)**
 - **[09 PJT (241115)](https://github.com/SJLee-0525/learning/tree/master/pjt/pjt-09)**
-- **[10 PJT (241126)](https://github.com/SJLee-0525/learning/tree/master/pjt/pjt-10)**
+- **[10 PJT (241126)](https://github.com/SJLee-0525/learning/tree/master/pjt/pjt-10)** [[최종 관통 PJT 시연 영상](https://youtu.be/gtoMOWh9y9M)]
 
 ### 10. PACKAGE
 - **[NUMPY](https://github.com/SJLee-0525/TIL/blob/master/Package/numpy.md)**
