@@ -21,8 +21,6 @@
 
 ### 3. REACT
 
-# REACT
-
 - **[Starting (컴포넌트, Prop, Event, useState, 렌더링)](https://github.com/SJLee-0525/React_practice/tree/master/01-starting-project)**
 - **[Tic-Tac-Toe (상태 업데이트)](https://github.com/SJLee-0525/React_practice/tree/master/03-tic-tac-toe-project)**
 - **[Investment Calculator (숫자 값 다루기)](https://github.com/SJLee-0525/React_practice/tree/master/04-investment-calculator-project)**
