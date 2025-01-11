@@ -1,28 +1,47 @@
 # TIL
 
 ## 개인 공부
-**[MEMO](https://github.com/SJLee-0525/TIL/blob/master/Algorithm/memo.md)**  
+
+**[MEMO](https://github.com/SJLee-0525/TIL/blob/master/Algorithm/memo.md)**
 
 ### 1. JAVA
-- **[변수, 연산자](https://github.com/SJLee-0525/TIL/blob/master/Java/start.md)**  
-- **[조건문, 반복문](https://github.com/SJLee-0525/TIL/blob/master/Java/condition_loop.md)**  
-- **[스코프, 형변환](https://github.com/SJLee-0525/TIL/blob/master/Java/scope_casting.md)**  
-- **[입력](https://github.com/SJLee-0525/TIL/blob/master/Java/scanner.md)**  
-- **[배열](https://github.com/SJLee-0525/TIL/blob/master/Java/array.md)**  
-- **[메서드](https://github.com/SJLee-0525/TIL/blob/master/Java/method.md)**  
+
+- **[변수, 연산자](https://github.com/SJLee-0525/TIL/blob/master/Java/start.md)**
+- **[조건문, 반복문](https://github.com/SJLee-0525/TIL/blob/master/Java/condition_loop.md)**
+- **[스코프, 형변환](https://github.com/SJLee-0525/TIL/blob/master/Java/scope_casting.md)**
+- **[입력](https://github.com/SJLee-0525/TIL/blob/master/Java/scanner.md)**
+- **[배열](https://github.com/SJLee-0525/TIL/blob/master/Java/array.md)**
+- **[메서드](https://github.com/SJLee-0525/TIL/blob/master/Java/method.md)**
 
 ### 2. APS_JAVA
-- **[APS Array](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_array.md)**  
-- **[APS String](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_string.md)**  
-- **[APS Stack & Queue](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_stack_queue.md)**  
+
+- **[APS Array](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_array.md)**
+- **[APS String](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_string.md)**
+- **[APS Stack & Queue](https://github.com/SJLee-0525/TIL/blob/master/Java/aps_stack_queue.md)**
+
+### 3. REACT
+
+# REACT
+
+- **[Starting (컴포넌트, Prop, Event, useState, 렌더링)](https://github.com/SJLee-0525/React_practice/tree/master/01-starting-project)**
+- **[Tic-Tac-Toe (상태 업데이트)](https://github.com/SJLee-0525/React_practice/tree/master/03-tic-tac-toe-project)**
+- **[Investment Calculator (숫자 값 다루기)](https://github.com/SJLee-0525/React_practice/tree/master/04-investment-calculator-project)**
+- **[React-Styling (Tailwind CSS)](https://github.com/SJLee-0525/React_practice/tree/master/05-react-styling-project)**
+- **[Debug (Strict Mode)](https://github.com/SJLee-0525/React_practice/tree/master/06-debug-project)**
+- **[Portals, Refs, forwardRef, dialog](https://github.com/SJLee-0525/React_practice/tree/master/07-using-portals-refs-project)**
+- **[Advanced-State (createContext, useContext, useReducer)](https://github.com/SJLee-0525/React_practice/tree/master/09-advanced-state-management-project)**
+- **[Side-Effect (useEffect, useCallback)](https://github.com/SJLee-0525/React_practice/tree/master/10-using-useeffect-project)**
 
 ## SSAFY
-### 1. START CAMP 
-- **[CLI](https://github.com/SJLee-0525/TIL/blob/master/CLI/CLI.md)**  
-- **[Markdown](https://github.com/SJLee-0525/TIL/blob/master/Markdown/Markdown.md)**  
+
+### 1. START CAMP
+
+- **[CLI](https://github.com/SJLee-0525/TIL/blob/master/CLI/CLI.md)**
+- **[Markdown](https://github.com/SJLee-0525/TIL/blob/master/Markdown/Markdown.md)**
 - **[GIT](https://github.com/SJLee-0525/TIL/blob/master/GIT/GIT.md)**
 
 ### 2. PYTHON
+
 - **[Fundamentals of Python](https://github.com/SJLee-0525/TIL/blob/master/Python/Fundamentals_of_Python.md)**
 - **[Data Types](https://github.com/SJLee-0525/TIL/blob/master/Python/Data_types.md)**
 - **[Type Conversion](https://github.com/SJLee-0525/TIL/blob/master/Python/Type_Conversion.md)**
@@ -35,6 +54,7 @@
 - **[Error & Except](https://github.com/SJLee-0525/TIL/blob/master/Python/Error_and_Except.md)**
 
 ### 3. ALGORITHM
+
 - **[List](https://github.com/SJLee-0525/TIL/blob/master/Algorithm/APS_List.md)**
 - **[String](https://github.com/SJLee-0525/TIL/blob/master/Algorithm/APS_String.md)**
 - **[Stack](https://github.com/SJLee-0525/TIL/blob/master/Algorithm/APS_Stack.md)**
@@ -47,12 +67,14 @@
 - **[Graph](https://github.com/SJLee-0525/TIL/blob/master/Algorithm/APS_Graph.md)**
 
 ### 4. WEB
+
 - **[HTML](https://github.com/SJLee-0525/TIL/blob/master/Web/Html.md)**
 - **[CSS](https://github.com/SJLee-0525/TIL/blob/master/Web/Css.md)**
 - **[Bootstrap](https://github.com/SJLee-0525/TIL/blob/master/Web/Bootstrap.md)**
 - **[Responsive WEB](https://github.com/SJLee-0525/TIL/blob/master/Web/Responsive_Web.md)**
 
 ### 5. DJANGO
+
 - **[Intro & Design Pattern](https://github.com/SJLee-0525/TIL/blob/master/Django/intro_design_pattern.md)**
 - **[Template & URLs](https://github.com/SJLee-0525/TIL/blob/master/Django/template_and_urls.md)**
 - **[Model](https://github.com/SJLee-0525/TIL/blob/master/Django/model.md)**
@@ -65,6 +87,7 @@
 - **[DRF 02](https://github.com/SJLee-0525/TIL/blob/master/Django/drf_2.md)**
 
 ### 6. DATABASE
+
 - **[SQL 01](https://github.com/SJLee-0525/TIL/blob/master/Database/sql_01.md)**
 - **[SQL 02](https://github.com/SJLee-0525/TIL/blob/master/Database/sql_02.md)**
 - **[Many to One Relationships 01](https://github.com/SJLee-0525/TIL/blob/master/Database/many_to_one_relationships_01.md)**
@@ -73,6 +96,7 @@
 - **[Many to Many Relationships 02](https://github.com/SJLee-0525/TIL/blob/master/Database/many_to_many_relationships_02.md)**
 
 ### 7. JAVASCRIPT
+
 - **[DOM](https://github.com/SJLee-0525/TIL/blob/master/Javascript/dom.md)**
 - **[Basic Syntax](https://github.com/SJLee-0525/TIL/blob/master/Javascript/basic_syntax.md)**
 - **[Reference Type](https://github.com/SJLee-0525/TIL/blob/master/Javascript/reference_type.md)**
@@ -81,6 +105,7 @@
 - **[Ajax with Django](https://github.com/SJLee-0525/TIL/blob/master/Javascript/ajax_with_django.md)**
 
 ### 8. VUE
+
 - **[Introduction of Vue](https://github.com/SJLee-0525/TIL/blob/master/Vue/introduction_of_vue.md)**
 - **[Basic Syntax 01](https://github.com/SJLee-0525/TIL/blob/master/Vue/basic_syntax_1.md)**
 - **[Basic Syntax 02](https://github.com/SJLee-0525/TIL/blob/master/Vue/basic_syntax_2.md)**
@@ -91,6 +116,7 @@
 - **[Vue with DRF](https://github.com/SJLee-0525/TIL/blob/master/Vue/vue_with_drf.md)**
 
 ### 9. PJT
+
 - **[01 PJT (240719)](https://github.com/SJLee-0525/TIL/blob/master/PJT/01_pjt.md)**
 - **[02 PJT (240726)](https://github.com/SJLee-0525/TIL/blob/master/PJT/02_pjt.md)**
 - **[03 PJT (240823)](https://github.com/SJLee-0525/TIL/blob/master/PJT/03_pjt.md)**
@@ -103,6 +129,7 @@
 - **[10 PJT (241126)](https://github.com/SJLee-0525/learning/tree/master/pjt/pjt-10)** [[최종 관통 PJT 시연 영상](https://youtu.be/gtoMOWh9y9M)]
 
 ### 10. PACKAGE
+
 - **[NUMPY](https://github.com/SJLee-0525/TIL/blob/master/Package/numpy.md)**
 - **[PANDAS](https://github.com/SJLee-0525/TIL/blob/master/Package/pandas.md)**
 - **[PANDAS (Function)](https://github.com/SJLee-0525/TIL/blob/master/Package/pandas_func.md)**
