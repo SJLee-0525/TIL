@@ -29,6 +29,9 @@
 - **[Portals, Refs, forwardRef, dialog](https://github.com/SJLee-0525/React_practice/tree/master/07-using-portals-refs-project)**
 - **[Advanced-State (createContext, useContext, useReducer)](https://github.com/SJLee-0525/React_practice/tree/master/09-advanced-state-management-project)**
 - **[Side-Effect (useEffect, useCallback)](https://github.com/SJLee-0525/React_practice/tree/master/10-using-useeffect-project)**
+- **[Quiz (Uncaught Error: Rendered fewer hooks than expected)](https://github.com/SJLee-0525/React_practice/tree/master/11-quiz-project)**
+- **[React Optimize(memo(), useMemo())](https://github.com/SJLee-0525/React_practice/tree/master/12-react-optimize-project)**
+- **[Http Request(fetch, await, async)](https://github.com/SJLee-0525/React_practice/tree/master/13-request-http-project)**
 
 ## SSAFY
 
